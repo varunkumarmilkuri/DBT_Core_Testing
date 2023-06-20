@@ -1,4 +1,4 @@
-name: schedule_dbt_job
+name: Adapt_DBT_Testing
 
 on:
   push:
