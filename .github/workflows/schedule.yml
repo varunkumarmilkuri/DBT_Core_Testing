@@ -6,7 +6,7 @@ on:
        # run on push to main branch
        - main
   schedule:
-      - cron: "0 9 * * 1-5"
+      - cron: "0 9 * * 3-5"
       # Run at 30 minutes past the hour, Monday through Friday
   workflow_dispatch: # Allow the workflow to be triggered manually
 env:
